@@ -5,7 +5,9 @@ function App() {
 
   return (
     <main className="main">
-      <EditCard/>
+      <div className="container">
+        <EditCard/>
+      </div>
     </main>
   )
 }

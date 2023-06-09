@@ -4,7 +4,7 @@ interface stateFront  {
 }
 
 interface stateBack {
-    description: string,
+    phone: string,
     socialMedia: string,
     mail: string,
     siteWeb:string

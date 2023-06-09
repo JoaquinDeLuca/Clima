@@ -1,0 +1,21 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333132;
+}
+.container{
+    gap: 2rem;
+    padding: 1.5rem;
+    background-color: #fcfcfc;
+}
+
+@media (min-width: 1024px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        /* max-width: 95%; */
+    }
+}
