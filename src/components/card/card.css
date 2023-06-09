@@ -1,0 +1,75 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.cardBackNameAndPro{
+    margin-left: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+.cardInfContact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    margin-left: 3.5rem;
+}
+.cardEdit{
+    display: flex;
+}
+.cardEditBackx,.cardEditFrontx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    width: 50%;
+    padding: .8rem; 
+}
+.inputColor{
+    height: 2.8rem;
+    border: .2rem solid lightgrey;
+    cursor: pointer;
+    background-color: lightgrey;
+}
+.cardSelect{
+    display: block;
+    width: 8.2rem;
+    height: 2.8rem;
+    padding: .8rem;
+    border: 1.5px solid lightgrey;
+    box-shadow: 0px 0px 20px -18px;
+    cursor: pointer;
+}
+.btn{
+    width: 9rem;
+    padding: .7rem;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+label{
+    margin: .2rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .cardContainer{
+        width: 60%;
+        align-items: start;
+    }
+    .cardEdit{
+        flex-direction: column;
+    }
+    .cardEditFrontx{
+        flex-direction: row;
+        gap: 1.3rem;
+    }
+    .cardEditBackx{
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
